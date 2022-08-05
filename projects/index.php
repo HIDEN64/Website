@@ -14,7 +14,7 @@
 	<center><table border="1" bgcolor="3c3c84" width="800px"><tr><td>
     	<?php require('../pageheader.html'); ?>
     	<hr>
-    	<h1>Projects</h1>
+        <h1>Projects</h1>
         <hr>
         <table><td><img src="https://git.nickandfloppy.com/repo-avatars/42-e991d8508d9e3cdef5807818f9f40fb8" width="35"></td><td><h2><a href="https://github.com/nickandfloppy/NetRunner">NetRunner</a></h2></td></table>
         <p>A fork of <a href="https://github.com/CamK06">Starman0620</a>'s <a href="https://github.com/CamK06/WinBot">WinBot</a>, modified for use in <a href="/corner">The Corner</a>.</p>

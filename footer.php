@@ -1,4 +1,4 @@
 <center>
-            <a href="http://www.nickandfloppy.com/">HTTP</a> / <a href="https://www.nickandfloppy.com/">HTTPS</a>
+            <?php if (empty($_SERVER['HTTPS'])){echo '<a href="https://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI] . '">Switch to HTTPS</a>';}else{echo '<a href="http://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI] . '">Switch to HTTP</a>';} ?>
             <address>&copy; <?php echo date('Y'); ?> <a href="http://nickandfloppy.com/">nick and floppy</a></address>
         </center>

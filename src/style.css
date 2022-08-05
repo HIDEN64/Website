@@ -24,7 +24,7 @@ a:active {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
   margin: 0px;
 }
 
@@ -51,4 +51,26 @@ pre {
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ - Doesn't seem to work? */
+  margin: 0px;
+  display: inline;
+}
+
+table.board {
+  border: #fff solid;
+}
+
+table.board, td.boarditem {
+  width: 100%;
+  /*min-height: 200px;*/
+  text-align: left;
+  vertical-align: top;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+address.date {
+  vertical-align: bottom;
 }
